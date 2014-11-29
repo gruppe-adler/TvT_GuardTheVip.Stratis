@@ -1,0 +1,8 @@
+Change log:
+
+1.1:
+	-Removed ammo/grenades from BLUFOR vehicles
+	-Minor changes to loadout
+	-Increased the timer for visiting the helicopter
+--
+1.0 - Initial release

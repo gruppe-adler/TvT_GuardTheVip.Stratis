@@ -1,0 +1,31 @@
+author="Edited by XiviD";
+OnLoadName = "VIP Escort";
+onLoadIntro="Ein VIP besucht die Insel Stratis um einige Sachen zu erledigen. <br/>Ein Team hat den Auftrag ihn zu beschützen. Das Andere nicht.";
+onLoadIntroTime=false;
+onLoadMission="Ein VIP besucht die Insel Stratis um einige Sachen zu erledigen. <br/>Ein Team hat den Auftrag ihn zu beschützen. Das Andere nicht.";
+onLoadMissionTime=false;
+loadScreen = "load.paa";
+
+
+//Mission and map
+disabledAI = 1;
+showCompass   = 1; 
+showGPS       = 1; 
+showMap       = 1; 
+showWatch     = 1; 
+enableItemsDropping = 0;
+
+// Mission Header
+class Header
+{
+  gameType = Team ;
+  minPlayers = 1;
+  maxPlayers = 31;
+};
+
+// description.ext settings for respawn
+///////////////////////////////////////////////////////////////////////////////////////////
+respawn = "BASE";
+respawndelay = 15;
+respawnDialog = true;
+///////////////////////////////////////////////////////////////////////////////////////////
