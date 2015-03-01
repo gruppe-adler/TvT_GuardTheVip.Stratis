@@ -26,12 +26,12 @@ CUL_fn_Equip = {
 					player addVest "V_BandollierB_khk";
 				};
 			}else{
-					player addUniform "U_C_Poloshirt_redwhite";
-					player addHeadGear "H_Cap_blu";
-					player addVest "V_TacVest_khk";
 					player additem "itemGPS";
 					player assignItem "itemGPS";
-					cul_mags = [["SmokeShellBlue",2]]; cul_wep = [];
+					player addUniform "U_Marshal";
+					player addHeadGear "H_Cap_police";
+					player addVest "V_TacVest_blk_POLICE";
+					player addGoggles "G_Squares_Tinted";
 					[] spawn {
 					while {alive player} do {
 							waitUntil {uniform player != "U_Marshal" || headGear player != "H_Cap_police" || vest player != "V_TacVest_blk_POLICE"};
