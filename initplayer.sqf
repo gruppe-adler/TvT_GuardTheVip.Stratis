@@ -16,14 +16,14 @@ CUL_fn_Equip = {
 				if ((str player) in ["s1","s2","s3","s4","s5","s6"]) then {
 					player additem "itemGPS";
 					player assignItem "itemGPS";
-					player addUniform "U_B_CombatUniform_mcam_tshirt";
-					player addHeadGear "H_Cap_brn_SERO";
-					player addVest "V_BandollierB_khk";
+					player addUniform "ARC_GER_Flecktarn_Uniform";
+					player addHeadGear "ARC_Partners_Cap_TM";
+					player addVest "ARC_GER_Flecktarn_Plate_Carrier";
 					player addMagazine "HandGrenade";
 				}else{
-					player addUniform "U_B_CombatUniform_mcam_vest";
-					player addHeadGear "V_Chestrig_khk"; 
-					player addVest "V_BandollierB_khk";
+					player addUniform "ARC_GER_Flecktarn_Uniform";
+					player addHeadGear "ARC_GER_Flecktarn_Helmet_Light"; 
+					player addVest "ARC_GER_Flecktarn_Plate_Carrier";
 				};
 			}else{
 					player additem "itemGPS";

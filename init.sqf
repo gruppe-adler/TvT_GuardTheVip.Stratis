@@ -1,4 +1,5 @@
 enableSaving [false,false];
+cameraOldPimped = compile preprocessFile "spectator\cameraOld_rip.sqf";
 
 [[
   ["rogaintask","Camp Rogain besichtigen","Unser Auftraggeber möchte den Stützpunkt Camp Rogain besichtigen.",blufor],
