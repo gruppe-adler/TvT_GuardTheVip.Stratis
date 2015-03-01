@@ -51,12 +51,10 @@ CUL_fn_Equip = {
 			//"respawn_west" setmarkeralphalocal 0;
 			{_x setMarkerColorLocal "ColorRed"; _x setMarkerTextLocal " VIP eliminieren"}forEach ["helimark","rogainmark","generalmark","dockmark"];
 			{_x setMarkerTextLocal " VIP eliminieren (Blufor-Gebiet)"}forEach ["helimark","rogainmark"];
-			player addUniform "U_OI_PilotCoveralls";
-			player addHeadGear "H_HelmetO_ocamo";
-			player addVest "V_PlateCarrier1_cbr";
-			cul_mags = [["30Rnd_65x39_caseless_green",8],["SmokeShellRed",1]];
-			cul_wep = ["arifle_Khaybar_F"];
-			player additem "itemGPS";
+			player addUniform "U_CAF_AG_EEUR_FATIGUES_03";
+			player addHeadGear "H_Shemag_olive_hs";
+			player addVest "V_TacVest_oli";
+			
 		};
 		default {cul_mags = []; cul_wep = [];};
 	};
