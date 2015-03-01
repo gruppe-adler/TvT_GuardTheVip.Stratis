@@ -1897,7 +1897,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=28;
+		items=29;
 		class Item0
 		{
 			position[]={6482.8662,7.7373509,5374.5298};
@@ -2177,6 +2177,18 @@ class Mission
 			vehicle="Land_CncWall4_F";
 			leader=1;
 			skill=0.60000002;
+		};
+		class Item28
+		{
+			position[]={4372.9224,227.38214,3829.6616};
+			azimut=256.388;
+			special="NONE";
+			id=95;
+			side="EMPTY";
+			vehicle="C_Quadbike_01_F";
+			lock="LOCKED";
+			skill=0.60000002;
+			text="heli";
 		};
 	};
 	class Markers

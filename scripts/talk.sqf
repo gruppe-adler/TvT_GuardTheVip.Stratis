@@ -13,7 +13,7 @@ _exit = false;
 hint "Bleiben Sie in der Nähe des Generals";
 
 sleep 3;
-cutText ["General: Schön dass Sie es geschaft haben.","PLAIN"];
+cutText ["General: Schön dass Sie es geschafft haben.","PLAIN"];
 sleep 2;
 _sentarr = [
 	"Ich befürchte wir sind bereits Ziele.",
@@ -34,6 +34,7 @@ _sentarr = [
 	"Mein Rücken bringt mich noch um.",
 	"Ich rate Ihnen sich schnellsten von dieser Insel zu entfernen.",
 	"Passen Sie auf sich auf."
+	"Mein eigentlicher Name ist Wurstkuchen."
 ];
 
 for "_i" from 0 to 6 do
@@ -44,7 +45,7 @@ for "_i" from 0 to 6 do
 	_sentarr = _sentarr - [_nr];
 	sleep 6 + (random 5);
 };
-if (_exit) exitWith {hint "STAY CLOSE to the general!!"; _unit addAction["<t color='#A1C7A2'>[- Talk -]</t>","scripts\talk.sqf",0, 100, true, true, "","player distance general < 4 && alive general && player == vip"]; };
+if (_exit) exitWith {hint "Bleib in der Nähe des Generals!"; _unit addAction["<t color='#A1C7A2'>[- Reden -]</t>","scripts\talk.sqf",0, 100, true, true, "","player distance general < 4 && alive general && player == vip"]; };
 
 cutText [ "General: Es war schön Sie wiederzusehen!","PLAIN"];
 
