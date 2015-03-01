@@ -19,7 +19,8 @@ class Mission
 		"agm_interaction",
 		"agm_medical",
 		"agm_logistics",
-		"task_force_radio_items"
+		"task_force_radio_items",
+		"caf_ag_Zeus"
 	};
 	addOnsAuto[]=
 	{
@@ -38,6 +39,7 @@ class Mission
 		"A3_Structures_F_Walls",
 		"A3_Structures_F_Mil_Fortification",
 		"A3_Air_F_Heli_Heli_Transport_03",
+		"caf_ag_Zeus",
 		"caf_ag_vehicles_me_t",
 		"a3_map_stratis"
 	};
@@ -85,7 +87,7 @@ class Mission
 				class Item1
 				{
 					position[]={6442.561,7.2247081,5429.8833};
-					azimut=256.38846;
+					azimut=256.388;
 					special="NONE";
 					id=1;
 					side="CIV";
@@ -1372,13 +1374,13 @@ class Mission
 						{
 							value="5";
 							parentCls="AGM_ModuleInteraction";
-							typeName="PlayerNamesViewDistance";
+							typeName="";
 						};
 						class Item1
 						{
 							value="0";
 							parentCls="AGM_ModuleInteraction";
-							typeName="ShowNamesForAI";
+							typeName="";
 						};
 					};
 					id=56;
@@ -1925,7 +1927,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=18;
+		items=16;
 		class Item0
 		{
 			position[]={5005.9863,208.46353,5911.9087};
@@ -2155,39 +2157,6 @@ class Mission
 		};
 		class Item14
 		{
-			position[]={4198.5933,38.268959,5335.2832};
-			a=250;
-			b=250;
-			activationBy="WEST";
-			repeating=1;
-			timeoutMin=2;
-			timeoutMid=2;
-			timeoutMax=2;
-			interruptable=1;
-			age="UNKNOWN";
-			expCond="player in thisList";
-			expActiv="hintSilent ""You're too close to assassin spawn. Turn back""";
-			class Effects
-			{
-			};
-		};
-		class Item15
-		{
-			position[]={4199.8525,38.276478,5334.6816};
-			a=230;
-			b=230;
-			activationBy="WEST";
-			repeating=1;
-			interruptable=1;
-			age="UNKNOWN";
-			expCond="player in thisList";
-			expActiv="player setDamage 1";
-			class Effects
-			{
-			};
-		};
-		class Item16
-		{
 			position[]={4474.6021,98.298843,6824.7314};
 			a=5;
 			b=5;
@@ -2202,7 +2171,7 @@ class Mission
 			{
 			};
 		};
-		class Item17
+		class Item15
 		{
 			position[]={4474.6045,92.116158,6834.7739};
 			a=5;
