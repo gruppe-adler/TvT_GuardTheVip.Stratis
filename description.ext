@@ -1,8 +1,8 @@
 author="Edited by XiviD";
 OnLoadName = "VIP Escort";
-onLoadIntro="Ein VIP besucht die Insel Stratis um einige Sachen zu erledigen. <br/>Ein Team hat den Auftrag ihn zu beschützen. Das Andere nicht.";
+onLoadIntro="Der Polizeipräsident von Altis besucht die Nachbarinsel Stratis um Präsenz zu zeigen. <br/>Die Gruppe Adler hat den Auftrag Ihn vor allen möglichen Gefahren zu schützen.";
 onLoadIntroTime=false;
-onLoadMission="Ein VIP besucht die Insel Stratis um einige Sachen zu erledigen. <br/>Ein Team hat den Auftrag ihn zu beschützen. Das Andere nicht.";
+onLoadMission="Der Polizeipräsident von Altis besucht die Nachbarinsel Stratis um Präsenz zu zeigen. <br/>Die Gruppe Adler hat den Auftrag Ihn vor allen möglichen Gefahren zu schützen.";
 onLoadMissionTime=false;
 loadScreen = "load.paa";
 
