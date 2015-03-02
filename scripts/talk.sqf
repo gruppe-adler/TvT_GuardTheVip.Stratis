@@ -46,6 +46,6 @@ for "_i" from 0 to 6 do
 };
 if (_exit) exitWith {hint "Bleiben Sie in der Nähe des Generals!"; _unit addAction["<t color='#A1C7A2'>[- Reden -]</t>","scripts\talk.sqf",0, 100, true, true, "","player distance general < 4 && alive general && player == vip"]; };
 
-cutText [ "General: Es war schön dich wiederzusehen!","PLAIN"];
+cutText ["General: Es war schön dich wiederzusehen!","PLAIN"];
 
 CUL_talked = true; publicVariable "CUL_talked";
