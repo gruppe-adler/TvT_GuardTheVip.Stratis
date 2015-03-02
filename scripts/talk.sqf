@@ -34,8 +34,7 @@ _sentarr = [
 	"Mein Rücken bringt mich noch um.",
 	"Ich rate dir die Insel schnellsten zu verlassen.",
 	"Pass auf dich auf.",
-	"Diese Soldaten werden dich nicht retten können."
-];
+	"Diese Soldaten werden dich nicht retten können."];
 
 for "_i" from 0 to 6 do
 {
