@@ -4,7 +4,7 @@
 // Created: 2013-03-10
 // Edited: 2013-03-14
 //------------------------------
-//this addAction["<t color='#A1C7A2'>[- Reden -]</t>","scripts\talk.sqf",0, 100, true, true, "","player distance general < 4 && alive general && player == vip"];
+//this addAction["<t color='#A1C7A2'>Reden</t>","scripts\talk.sqf",0, 100, true, true, "","player distance general < 4 && alive general && player == vip"];
 
 (_this select 0) removeAction (_this select 2);
 
@@ -44,7 +44,7 @@ for "_i" from 0 to 6 do
 	_sentarr = _sentarr - [_nr];
 	sleep 6 + (random 5);
 };
-if (_exit) exitWith {hint "Bleiben Sie in der Nähe des Generals!"; _unit addAction["<t color='#A1C7A2'>[- Reden -]</t>","scripts\talk.sqf",0, 100, true, true, "","player distance general < 4 && alive general && player == vip"]; };
+if (_exit) exitWith {hint "Bleiben Sie in der Nähe des Generals!"; _unit addAction["<t color='#A1C7A2'>Reden</t>","scripts\talk.sqf",0, 100, true, true, "","player distance general < 4 && alive general && player == vip"]; };
 
 cutText ["General: Es war schön dich wiederzusehen!","PLAIN"];
 

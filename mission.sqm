@@ -56,7 +56,7 @@ class Mission
 	randomSeed=12870386;
 	class Intel
 	{
-		briefingName="TvT_GuardTheVip_V1";
+		briefingName="TvT_GuardTheVip_V2";
 		startWeather=0.29999998;
 		startWind=0.099999994;
 		startWaves=0.099999994;
@@ -643,7 +643,7 @@ class Mission
 					vehicle="C_man_1";
 					skill=0.60000002;
 					text="general";
-					init="this addAction[""<t color='#A1C7A2'>[- Talk -]</t>"",""scripts\talk.sqf"",0, 100, true, true, """",""player distance general < 4 && alive general && player == vip""];";
+					init="this addAction[""<t color='#A1C7A2'>Reden</t>"",""scripts\talk.sqf"",0, 100, true, true, """",""player distance general < 4 && alive general && player == vip""];";
 				};
 			};
 		};
