@@ -11,7 +11,6 @@ class Mission
 		"A3_Structures_F_Walls",
 		"A3_Structures_F_Mil_Fortification",
 		"a3_characters_f",
-		"A3_Air_F_Heli_Heli_Transport_03",
 		"A3_Soft_F_MRAP_01",
 		"A3_Soft_F_Offroad_01",
 		"caf_ag_vehicles_me_t",
@@ -25,7 +24,8 @@ class Mission
 		"a3_air_f_heli_light_01",
 		"CAMisc_ACR_Helpers",
 		"A3_Structures_F_Ind_Cargo",
-		"A3_Modules_F_Curator_Curator"
+		"A3_Modules_F_Curator_Curator",
+		"A3_Air_F_Beta_Heli_Attack_01"
 	};
 	addOnsAuto[]=
 	{
@@ -45,12 +45,12 @@ class Mission
 		"A3_Soft_F_MRAP_01",
 		"A3_Structures_F_Walls",
 		"A3_Structures_F_Mil_Fortification",
-		"A3_Air_F_Heli_Heli_Transport_03",
 		"caf_ag_Zeus",
 		"caf_ag_vehicles_me_t",
 		"A3_Soft_F_Quadbike",
 		"CAMisc_ACR_Helpers",
 		"A3_Structures_F_Ind_Cargo",
+		"A3_Air_F_Beta_Heli_Attack_01",
 		"a3_map_stratis"
 	};
 	randomSeed=12870386;
@@ -2131,17 +2131,17 @@ class Mission
 		};
 		class Item11
 		{
-			position[]={4373.4092,226.91434,3816.2134};
-			azimut=-3.76829;
+			position[]={4165.3013,37.702415,5356.2388};
+			azimut=-160;
 			id=80;
 			side="EMPTY";
-			vehicle="B_Heli_Transport_03_unarmed_F";
-			lock="LOCKED";
+			vehicle="CAF_AG_ME_T_Offroad";
+			leader=1;
 			skill=0.60000002;
 		};
 		class Item12
 		{
-			position[]={4165.3013,37.702415,5356.2388};
+			position[]={4168.2759,37.714924,5354.4233};
 			azimut=-160;
 			id=81;
 			side="EMPTY";
@@ -2151,7 +2151,7 @@ class Mission
 		};
 		class Item13
 		{
-			position[]={4168.2759,37.714924,5354.4233};
+			position[]={4171.3652,37.703712,5352.5298};
 			azimut=-160;
 			id=82;
 			side="EMPTY";
@@ -2161,7 +2161,7 @@ class Mission
 		};
 		class Item14
 		{
-			position[]={4171.3652,37.703712,5352.5298};
+			position[]={4174.5322,37.757462,5350.8311};
 			azimut=-160;
 			id=83;
 			side="EMPTY";
@@ -2171,7 +2171,7 @@ class Mission
 		};
 		class Item15
 		{
-			position[]={4174.5322,37.757462,5350.8311};
+			position[]={4177.7764,37.843384,5349.1309};
 			azimut=-160;
 			id=84;
 			side="EMPTY";
@@ -2181,17 +2181,16 @@ class Mission
 		};
 		class Item16
 		{
-			position[]={4177.7764,37.843384,5349.1309};
-			azimut=-160;
+			position[]={4162.5205,37.717911,5348.6675};
 			id=85;
 			side="EMPTY";
-			vehicle="CAF_AG_ME_T_Offroad";
+			vehicle="C_Quadbike_01_F";
 			leader=1;
 			skill=0.60000002;
 		};
 		class Item17
 		{
-			position[]={4162.5205,37.717911,5348.6675};
+			position[]={4164.6064,37.690182,5347.6245};
 			id=86;
 			side="EMPTY";
 			vehicle="C_Quadbike_01_F";
@@ -2200,7 +2199,7 @@ class Mission
 		};
 		class Item18
 		{
-			position[]={4164.6064,37.690182,5347.6245};
+			position[]={4166.9233,37.6535,5346.2734};
 			id=87;
 			side="EMPTY";
 			vehicle="C_Quadbike_01_F";
@@ -2209,7 +2208,7 @@ class Mission
 		};
 		class Item19
 		{
-			position[]={4166.9233,37.6535,5346.2734};
+			position[]={4169.1255,37.638817,5345.0376};
 			id=88;
 			side="EMPTY";
 			vehicle="C_Quadbike_01_F";
@@ -2218,7 +2217,7 @@ class Mission
 		};
 		class Item20
 		{
-			position[]={4169.1255,37.638817,5345.0376};
+			position[]={4171.5586,37.645508,5343.7632};
 			id=89;
 			side="EMPTY";
 			vehicle="C_Quadbike_01_F";
@@ -2227,7 +2226,7 @@ class Mission
 		};
 		class Item21
 		{
-			position[]={4171.5586,37.645508,5343.7632};
+			position[]={4173.7983,37.688702,5342.5659};
 			id=90;
 			side="EMPTY";
 			vehicle="C_Quadbike_01_F";
@@ -2236,7 +2235,7 @@ class Mission
 		};
 		class Item22
 		{
-			position[]={4173.7983,37.688702,5342.5659};
+			position[]={4176.3091,37.756199,5341.3296};
 			id=91;
 			side="EMPTY";
 			vehicle="C_Quadbike_01_F";
@@ -2245,7 +2244,7 @@ class Mission
 		};
 		class Item23
 		{
-			position[]={4176.3091,37.756199,5341.3296};
+			position[]={4178.8193,37.87796,5339.978};
 			id=92;
 			side="EMPTY";
 			vehicle="C_Quadbike_01_F";
@@ -2254,28 +2253,29 @@ class Mission
 		};
 		class Item24
 		{
-			position[]={4178.8193,37.87796,5339.978};
-			id=93;
-			side="EMPTY";
-			vehicle="C_Quadbike_01_F";
-			leader=1;
-			skill=0.60000002;
-		};
-		class Item25
-		{
 			position[]={2868.6118,2.8008704,6067.6382};
 			azimut=572.66467;
-			id=94;
+			id=93;
 			side="EMPTY";
 			vehicle="Cube5cm_ACR";
 			leader=1;
 			skill=0.60000002;
 			init="main_building = createVehicle [""Land_i_Addon_04_V1_F"", position this, [], 0, ""CAN_COLLIDE""]; main_building setdir (getDir this);deleteVehicle this; ";
 		};
-		class Item26
+		class Item25
 		{
 			position[]={2864.301,3.0221965,6065.2446};
 			azimut=212.44025;
+			id=94;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item26
+		{
+			position[]={2868.7231,3.226825,6062.4321};
+			azimut=211.92264;
 			id=95;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
@@ -2284,45 +2284,45 @@ class Mission
 		};
 		class Item27
 		{
-			position[]={2868.7231,3.226825,6062.4321};
-			azimut=211.92264;
-			id=96;
-			side="EMPTY";
-			vehicle="Land_CncWall4_F";
-			leader=1;
-			skill=0.60000002;
-		};
-		class Item28
-		{
 			position[]={4372.9224,227.38214,3829.6616};
 			azimut=256.388;
 			special="NONE";
-			id=97;
+			id=96;
 			side="EMPTY";
 			vehicle="C_Quadbike_01_F";
 			lock="LOCKED";
 			skill=0.60000002;
 			text="heli";
 		};
-		class Item29
+		class Item28
 		{
 			position[]={6581.5796,24.099648,5331.3247};
 			azimut=212.45399;
-			id=98;
+			id=97;
 			side="EMPTY";
 			vehicle="Land_CargoBox_V1_F";
 			skill=0.60000002;
 			text="arsenal_blufor";
 		};
-		class Item30
+		class Item29
 		{
 			position[]={4195.6138,38.256306,5339.4097};
 			azimut=200;
-			id=99;
+			id=98;
 			side="EMPTY";
 			vehicle="Land_CargoBox_V1_F";
 			skill=0.60000002;
 			text="arsenal_opfor";
+		};
+		class Item30
+		{
+			position[]={4374.4976,226.91365,3815.2109};
+			id=99;
+			side="EMPTY";
+			vehicle="B_Heli_Attack_01_F";
+			lock="LOCKED";
+			skill=0.60000002;
+			fuel=0;
 		};
 	};
 	class Markers
@@ -2330,7 +2330,7 @@ class Mission
 		items=7;
 		class Item0
 		{
-			position[]={5039.7739,208.93141,5917.6982};
+			position[]={5019.4604,208.60208,5913.1753};
 			name="rogainmark";
 			text=" Camp Rogain besichtigen";
 			type="selector_selectable";
@@ -2338,7 +2338,7 @@ class Mission
 		};
 		class Item1
 		{
-			position[]={4381.7324,227.03368,3818.6494};
+			position[]={4374.394,226.92293,3815.8301};
 			name="helimark";
 			text=" Prototyp besichtigen";
 			type="selector_selectable";
@@ -2346,7 +2346,7 @@ class Mission
 		};
 		class Item2
 		{
-			position[]={4504.1943,106.21485,6793.0996};
+			position[]={4505.1055,105.55251,6799.6621};
 			name="generalmark";
 			text=" General besuchen";
 			type="selector_selectable";
