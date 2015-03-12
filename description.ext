@@ -1,8 +1,8 @@
 author="Edited by XiviD";
-OnLoadName = "VIP Escort";
-onLoadIntro="Der Polizeipräsident von Altis besucht die Nachbarinsel Stratis um Präsenz zu zeigen. <br/>Die Gruppe Adler hat den Auftrag Ihn vor allen möglichen Gefahren zu schützen.";
+OnLoadName = "GuardTheVip";
+onLoadIntro="Der Polizeipräsident von Altis besucht die Nachbarinsel Stratis um dort Präsenz zu zeigen. <br/>Die Gruppe Adler hat den Auftrag Ihn vor allen möglichen Gefahren zu schützen.";
 onLoadIntroTime=false;
-onLoadMission="Der Polizeipräsident von Altis besucht die Nachbarinsel Stratis um Präsenz zu zeigen. <br/>Die Gruppe Adler hat den Auftrag Ihn vor allen möglichen Gefahren zu schützen.";
+onLoadMission="Der Polizeipräsident von Altis besucht die Nachbarinsel Stratis um dort Präsenz zu zeigen. <br/>Die Gruppe Adler hat den Auftrag Ihn vor allen möglichen Gefahren zu schützen.";
 onLoadMissionTime=false;
 overviewPicture="pic\GuardTheVip.jpg"; //mission picture for loading screen only
 
