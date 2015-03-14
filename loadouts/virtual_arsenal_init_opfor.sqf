@@ -46,7 +46,22 @@ _availableItems = [
 	"SMA_eotech552_3XDOWN",
 	"SMA_eotech552_3XDOWN_des",
 	"SMA_eotech552_3XDOWN_wdl",
-	"FHQ_acc_LLM01L"
+	"FHQ_acc_LLM01L",
+	"AGM_Morphine",
+	"AGM_Bandage",
+	"AGM_Epipen",
+	"AGM_Bloodbag",
+	"AGM_CableTie",
+	"ItemMap",
+	"ItemCompass",
+	"AGM_CableTie",
+	"AGM_MapTools",
+	"HandGrenade",
+	"SmokeShellBlue",
+	"SmokeShellRed",
+	"AGM_Clacker",
+	"AGM_DefusalKit"
+
 ];
 
 _availableVests = [
@@ -61,6 +76,8 @@ _availableUniforms = [
 	"U_OG_Guerilla2_3",
 	"U_OG_Guerilla3_1",
 	"U_OG_Guerilla3_2",
+	"U_CAF_AG_AFR_CLOTHES_01e",
+	"U_CAF_AG_AFR_CLOTHES_02a",
 	"U_OG_leader"
 ];
 

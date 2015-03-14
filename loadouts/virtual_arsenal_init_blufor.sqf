@@ -50,7 +50,20 @@ _availableItems = [
     "SMA_eotech552_3XDOWN",
     "SMA_eotech552_3XDOWN_des",
     "SMA_eotech552_3XDOWN_wdl",
-    "FHQ_acc_LLM01L"
+    "FHQ_acc_LLM01L",
+    "muzzle_snds_acp",
+    "FHQ_optic_MicroCCO",
+    "AGM_Morphine",
+    "AGM_Bandage",
+    "AGM_Epipen",
+    "AGM_Bloodbag",
+    "AGM_CableTie",
+    "ItemMap",
+    "ItemCompass",
+    "AGM_CableTie",
+    "AGM_MapTools",
+    "AGM_DefusalKit"
+
 ];
 
 _availableVests = [
@@ -87,11 +100,19 @@ _availableWeapons = [
     "SMA_STG_E4_BLACK_F",
     "arifle_MX_F",
     "arifle_MX_Black_F",
-    "SMA_SKS_F",
-    "SMA_SKS_TAN_F",
     "hgun_Pistol_heavy_01_F",
     "hlc_smg_mp5k",
-    "hgun_ACPC2_F"
+    "hgun_ACPC2_F",
+    "hlc_smg_mp5a4",
+    "hlc_smg_mp5n",
+    "hlc_smg_mp5k_PDW",
+    "SMG_01_F"  
+];
+
+magazineCargo = [
+    "HandGrenade",
+    "SmokeShellBlue",
+    "SmokeShellRed"
 ];
 
 
