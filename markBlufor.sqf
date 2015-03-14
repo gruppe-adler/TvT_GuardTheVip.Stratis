@@ -8,7 +8,10 @@
 if (isDedicated ||((side player) != blufor)) exitWith {};
 
 private ["_markArr", "_mark","_vipmark","_id", "_markercolor"];
-if (!isMultiplayer) then {playableunits = switchableUnits};
+players = [];
+if (!isMultiplayer) then {players = switchableUnits} else {
+players = playableUnits;
+};
 
 if (toLower (str player) != "vip") then {
 	waitUntil {!isNil "vip"};
@@ -42,7 +45,7 @@ if ((side _x) == blufor && vehicle _x != _x && alive _x ) then {
 	};
 };
 
-} forEach playableUnits;
+} forEach players;
 	sleep 8;
 	{
 		deleteMarkerLocal _x

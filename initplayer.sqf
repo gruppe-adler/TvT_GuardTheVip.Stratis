@@ -11,8 +11,7 @@ CUL_fn_Equip = {
 			"respawn_east" setmarkeralphalocal 0;
 			if (str player != "vip") then {
 				(group player) setGroupID  ["Team Shield"];
-				cul_mags = [["30Rnd_65x39_caseless_mag",8],["SmokeShellGreen",1]];
-				cul_wep = ["arifle_MX_F"];
+			
 				if ((str player) in ["s1","s2","s3","s4","s5","s6"]) then {
 					player additem "itemGPS";
 					player assignItem "itemGPS";
@@ -56,11 +55,11 @@ CUL_fn_Equip = {
 			player addVest "V_TacVest_oli";
 			
 		};
-		default {cul_mags = []; cul_wep = [];};
+		default {};
 	};
-	{player addMagazines [_x select 0,_x select 1]}forEach cul_mags;
-	{player addWeapon _x} forEach cul_wep;
-	player addItem "FirstAidKit";
+	
+	
+	
 };
 [] call CUL_fn_Equip;
 
