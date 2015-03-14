@@ -99,7 +99,7 @@ class Mission
 				class Item1
 				{
 					position[]={6582.1528,24.137199,5325.9629};
-					azimut=358.48434;
+					azimut=358.48401;
 					special="NONE";
 					id=1;
 					side="CIV";
