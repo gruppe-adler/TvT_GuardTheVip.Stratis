@@ -30,12 +30,7 @@ _availableHeadgear = [
 	"H_Watchcap_blk"
 ];
 
-_availableBackpacks = [
-	"B_Carryall_mcamo",
-	"B_AssaultPack_dgtl",
-	"B_Carryall_cbr",
-	"B_AssaultPack_khk"
-];
+
 
 _availableItems = [
 	"AGM_Earbuds",
@@ -85,7 +80,7 @@ _availableWeapons = [
 	"Binocular"
 ];
 
-[_crate,((backpackCargo _crate) + _availableBackpacks)] call BIS_fnc_addVirtualBackpackCargo;
-[_crate,((itemCargo _crate) + _availableHeadgear + _availableItems + _availableUniforms + _availableVests)] call BIS_fnc_addVirtualItemCargo;
+[_crate,(_availableBackpacks)] call BIS_fnc_addVirtualBackpackCargo;
+[_crate,(_availableHeadgear + _availableGoggles + _availableUniforms + _availableVests + _availableItems)] call BIS_fnc_addVirtualItemCargo;
 [_crate,(magazineCargo _crate)] call BIS_fnc_addVirtualMagazineCargo;
-[_crate,(weaponCargo _crate) + _availableWeapons] call BIS_fnc_addVirtualWeaponCargo;
+[_crate,(_availableWeapons)] call BIS_fnc_addVirtualWeaponCargo;
