@@ -25,7 +25,8 @@ class Mission
 		"CAMisc_ACR_Helpers",
 		"A3_Structures_F_Ind_Cargo",
 		"A3_Modules_F_Curator_Curator",
-		"A3_Air_F_Beta_Heli_Attack_01"
+		"A3_Air_F_Beta_Heli_Attack_01",
+		"A3_Soft_F_Truck"
 	};
 	addOnsAuto[]=
 	{
@@ -51,6 +52,7 @@ class Mission
 		"CAMisc_ACR_Helpers",
 		"A3_Structures_F_Ind_Cargo",
 		"A3_Air_F_Beta_Heli_Attack_01",
+		"A3_Soft_F_Truck",
 		"a3_map_stratis"
 	};
 	randomSeed=12870386;
@@ -924,7 +926,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2882.3391,3.6332941,6058.1216};
+					position[]={2881.1765,3.4120562,6060.5576};
 					azimut=297.67126;
 					id=40;
 					side="CIV";
@@ -1708,7 +1710,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2882.5737,3.4743626,6060.3853};
+					position[]={2881.9648,3.3040783,6062.8765};
 					azimut=297.67126;
 					id=59;
 					side="CIV";
@@ -2012,7 +2014,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=31;
+		items=34;
 		class Item0
 		{
 			position[]={6574.3169,23.79545,5321.3218};
@@ -2332,6 +2334,46 @@ class Mission
 			lock="LOCKED";
 			skill=0.60000002;
 			fuel=0;
+		};
+		class Item31
+		{
+			position[]={2869.5627,2.6433516,6085.8662};
+			azimut=125;
+			special="NONE";
+			id=100;
+			side="EMPTY";
+			vehicle="C_Van_01_transport_F";
+			leader=1;
+			skill=0.60000002;
+			fuel=0.47870183;
+			description="Attentäter (Führer)";
+		};
+		class Item32
+		{
+			position[]={2878.4795,2.7346461,6087.0708};
+			azimut=211.647;
+			special="NONE";
+			id=101;
+			side="EMPTY";
+			vehicle="C_Quadbike_01_F";
+			leader=1;
+			skill=0.60000002;
+			health=0.89858443;
+			fuel=0.32682893;
+			description="Attentäter (Führer)";
+		};
+		class Item33
+		{
+			position[]={2875.9456,2.73,6088.772};
+			azimut=21.792601;
+			special="NONE";
+			id=102;
+			side="EMPTY";
+			vehicle="C_Offroad_01_F";
+			leader=1;
+			skill=0.60000002;
+			fuel=0.62610686;
+			description="Attentäter (Führer)";
 		};
 	};
 	class Markers
