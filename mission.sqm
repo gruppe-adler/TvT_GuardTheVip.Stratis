@@ -28,7 +28,8 @@ class Mission
 		"A3_Air_F_Beta_Heli_Attack_01",
 		"A3_Soft_F_Truck",
 		"agm_core",
-		"agm_nametags"
+		"agm_nametags",
+		"A3_Weapons_F_Ammoboxes"
 	};
 	addOnsAuto[]=
 	{
@@ -56,12 +57,13 @@ class Mission
 		"A3_Structures_F_Ind_Cargo",
 		"A3_Air_F_Beta_Heli_Attack_01",
 		"A3_Soft_F_Truck",
+		"A3_Weapons_F_Ammoboxes",
 		"a3_map_stratis"
 	};
 	randomSeed=12870386;
 	class Intel
 	{
-		briefingName="TvT_GuardTheVip_V2";
+		briefingName="TvT_GuardTheVip_V3";
 		startWeather=0.29999998;
 		startWind=0.099999994;
 		startWaves=0.099999994;
@@ -2017,7 +2019,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=34;
+		items=35;
 		class Item0
 		{
 			position[]={6574.3169,23.79545,5321.3218};
@@ -2376,6 +2378,20 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			fuel=0.62610686;
+			description="Attentäter (Führer)";
+		};
+		class Item34
+		{
+			position[]={4192.1147,38.301189,5340.21};
+			azimut=377.18799;
+			special="NONE";
+			id=103;
+			side="EMPTY";
+			vehicle="Box_NATO_AmmoOrd_F";
+			leader=1;
+			skill=0.60000002;
+			text="box";
+			init="clearweaponCargoGlobal this; clearbackpackcargoglobal this; clearitemcargoglobal this; clearmagazinecargoglobal this; box addMagazinecargoglobal [""ClaymoreDirectionalMine_Remote_Mag"", 3];";
 			description="Attentäter (Führer)";
 		};
 	};

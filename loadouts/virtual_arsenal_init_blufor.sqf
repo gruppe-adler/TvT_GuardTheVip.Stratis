@@ -109,7 +109,7 @@ _availableWeapons = [
     "SMG_01_F"  
 ];
 
-magazineCargo = [
+_magazineCargo = [
     "HandGrenade",
     "SmokeShellBlue",
     "SmokeShellRed"
@@ -119,5 +119,5 @@ magazineCargo = [
 //Populate with predefined items and whatever is already in the crate
 [_crate,(_availableBackpacks)] call BIS_fnc_addVirtualBackpackCargo;
 [_crate,(_availableHeadgear + _availableUniforms + _availableVests + _availableItems)] call BIS_fnc_addVirtualItemCargo;
-[_crate,(magazineCargo _crate)] call BIS_fnc_addVirtualMagazineCargo;
+[_crate,(magazineCargo _crate) + _magazineCargo] call BIS_fnc_addVirtualMagazineCargo;
 [_crate,(_availableWeapons)] call BIS_fnc_addVirtualWeaponCargo;
