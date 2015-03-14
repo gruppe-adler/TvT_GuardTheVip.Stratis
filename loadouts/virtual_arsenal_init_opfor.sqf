@@ -7,18 +7,6 @@ removeAllActions _crate; //funzt nicht mit Inventar AddAction
 
 
 
-// exit script when sma and hlc is off
-if !(addOnsSMAandHLC) exitWith {
-     
-    
-	   _crate addAction ['<t color=''#45B6EA''>' + (localize "str_GRAD_openSupplyBox") + '</t>',
-	{
-	_box = _this select 0;
-	_unit = _this select 1;
-	["Open",[nil,_box]] call bis_fnc_arsenal; 
-	}];
-
-};
 
 _hasAction = _crate getVariable ["ArsenalPresent", false];
 
@@ -35,19 +23,7 @@ if (!_hasAction) then {
 
 
 
-
 _availableHeadgear = [
-	"H_CAF_AG_TURBAN",
-	"H_CAF_AG_PAKTOL",
-	"H_CAF_AG_PAKTOL_01",
-	"H_CAF_AG_PAKTOL_02",
-	"H_CAF_AG_PAKTOL_03",
-	"H_CAF_AG_WRAP",
-	"H_CAF_AG_FUR",
-	"H_CAF_AG_FUR2",
-	"H_CAF_AG_BEANIE",
-	"H_CAF_AG_BOONIE_01",
-	"H_CAF_AG_BOONIE_02",
 	"H_Watchcap_cbr",
 	"H_Shemag_olive_hs",
 	"H_Hat_camo",
@@ -72,9 +48,9 @@ _availableItems = [
 	"G_Balaclava_oli",
 	"G_Bandanna_tan",
 	"G_Bandanna_oli",
-    "SMA_eotech552_3XDOWN",
-    "SMA_eotech552_3XDOWN_des",
-    "SMA_eotech552_3XDOWN_wdl",
+	"SMA_eotech552_3XDOWN",
+	"SMA_eotech552_3XDOWN_des",
+	"SMA_eotech552_3XDOWN_wdl",
 	"FHQ_acc_LLM01L"
 ];
 
@@ -85,42 +61,12 @@ _availableVests = [
 ];
 
 _availableUniforms = [
-	"U_CAF_AG_EEUR_FATIGUES_01",
-	"U_CAF_AG_EEUR_FATIGUES_01a",
-	"U_CAF_AG_EEUR_FATIGUES_02",
-	"U_CAF_AG_EEUR_FATIGUES_02a",
-	"U_CAF_AG_EEUR_FATIGUES_03",
-	"U_CAF_AG_EEUR_FATIGUES_03a",
-	"U_CAF_AG_EEUR_FATIGUES_03b",
-	"U_CAF_AG_EEUR_FATIGUES_03c",
 	"U_OG_Guerilla1_1",
 	"U_OG_Guerilla2_1",
 	"U_OG_Guerilla2_3",
 	"U_OG_Guerilla3_1",
 	"U_OG_Guerilla3_2",
-	"U_OG_leader",
-    "U_CAF_AG_ME_ROBES_01",
-	"U_CAF_AG_ME_ROBES_01a",
-	"U_CAF_AG_ME_ROBES_01b",
-	"U_CAF_AG_ME_ROBES_01c",
-	"U_CAF_AG_ME_ROBES_01d",
-	"U_CAF_AG_ME_ROBES_02",
-	"U_CAF_AG_ME_ROBES_02a",
-	"U_CAF_AG_ME_ROBES_02b",
-	"U_CAF_AG_ME_ROBES_02c",
-	"U_CAF_AG_ME_ROBES_02d",
-	"U_CAF_AG_ME_ROBES_03",
-	"U_CAF_AG_ME_ROBES_03a",
-	"U_CAF_AG_ME_ROBES_03b",
-	"U_CAF_AG_ME_ROBES_03c",
-	"U_CAF_AG_ME_ROBES_03d",
-	"U_CAF_AG_ME_ROBES_04",
-	"U_CAF_AG_ME_ROBES_04a",
-	"U_CAF_AG_ME_ROBES_04b",
-	"U_CAF_AG_ME_ROBES_04c",
-	"U_CAF_AG_ME_ROBES_04d",
-	"U_CAF_AG_ME_ROBES_mil_01",
-	"U_CAF_AG_ME_ROBES_mil_01a"
+	"U_OG_leader"
 ];
 
 _availableWeapons = [

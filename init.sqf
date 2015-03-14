@@ -8,7 +8,7 @@ cameraOldPimped = compile preprocessFile "spectator\cameraOld_rip.sqf";
   ["generaltask","General besuchen","Ein ehemaliger General lebt im Norden der Insel. Die Zielperson möchte Ihn besuchen.",blufor],
   ["docktask","Öffentlich zeigen","Die Zielperson möchte eine Rede in der Hauptstadt der Insel halten.",blufor],
   ["helitask","Prototyp anschauen","Die Zielperson möchte den neuen Transporthubschrauber besichtigen.",blufor],
-  ["killviptask","Eleminiert die Zielperson","Unser Auftrag ist die Zielperson auszuschalten.",opfor]
+  ["killviptask","Eliminiert die Zielperson","Unser Auftrag ist die Zielperson auszuschalten.",opfor]
 ],[
   ["Credits","Mission by Cuel
   <br />SHK_TASKMASTER 2 Made by: Shuko of LDD Kyllikki"]

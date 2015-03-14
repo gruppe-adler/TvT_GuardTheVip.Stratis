@@ -7,18 +7,6 @@ removeAllActions _crate; //funzt nicht mit Inventar AddAction
 
 
 
-// exit script when sma and hlc is off
-if !(addOnsSMAandHLC) exitWith {
-     
-    
-	   _crate addAction ['<t color=''#45B6EA''>' + (localize "str_GRAD_openSupplyBox") + '</t>',
-	{
-	_box = _this select 0;
-	_unit = _this select 1;
-	["Open",[nil,_box]] call bis_fnc_arsenal; 
-	}];
-
-};
 
 _hasAction = _crate getVariable ["ArsenalPresent", false];
 
