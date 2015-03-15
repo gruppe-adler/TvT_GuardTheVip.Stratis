@@ -64,6 +64,13 @@ _availableItems = [
 
 ];
 
+_availableBackpacks = [
+	"B_Carryall_mcamo",
+	"B_AssaultPack_dgtl",
+	"B_Carryall_cbr",
+	"B_AssaultPack_khk"
+];
+
 _availableVests = [
     "V_TacVest_khk",
     "V_TacVest_oli",

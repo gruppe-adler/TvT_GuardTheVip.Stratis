@@ -9,7 +9,10 @@
 if (isDedicated || ((side player) != opfor)) exitWith {};
 
 private ["_markArr", "_mark","_id", "_markercolor"];
-if (!isMultiplayer) then {playableunits = switchableUnits};
+players = [];
+if (!isMultiplayer) then {players = switchableUnits} else {
+	players = playableUnits;
+};
 [] spawn {
 	_markArr2 = [];
 	while {true} do {
@@ -25,7 +28,7 @@ if (!isMultiplayer) then {playableunits = switchableUnits};
 			sleep 0.02;
 			_markArr2 = _markArr2 + [_mark];
 		};
-		} forEach playableUnits;
+		} forEach players;
 		sleep 5;
 		{
 			deleteMarkerLocal _x
@@ -48,7 +51,7 @@ while {true} do {
 		};
 	};
 
-	} forEach playableUnits;
+	} forEach players;
 	sleep 15;
 		{
 			deleteMarkerLocal _x
