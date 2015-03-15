@@ -109,8 +109,7 @@ _availableWeapons = [
 
 _magazineCargo = [
     "HandGrenade",
-    "SmokeShellBlue",
-    "SmokeShellRed"
+    "SmokeShellBlue"
 ];
 
 
