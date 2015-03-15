@@ -30,7 +30,6 @@ CUL_fn_Equip = {
 					player addUniform "U_Marshal";
 					player addHeadGear "H_Cap_police";
 					player addVest "V_TacVest_blk_POLICE";
-					player addGoggles "G_Squares_Tinted";
 					[] spawn {
 					while {alive player} do {
 							waitUntil {uniform player != "U_Marshal" || headGear player != "H_Cap_police" || vest player != "V_TacVest_blk_POLICE"};
@@ -41,8 +40,7 @@ CUL_fn_Equip = {
 							player addUniform "U_Marshal";
 							player addHeadGear "H_Cap_police";
 							player addVest "V_TacVest_blk_POLICE";
-							player addGoggles "G_Squares_Tinted";
-						};
+							};
 					};
 			};
 		};
