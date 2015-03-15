@@ -2452,7 +2452,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=16;
+		items=17;
 		class Item0
 		{
 			position[]={5005.9863,208.46353,5911.9087};
@@ -2706,6 +2706,22 @@ class Mission
 			age="UNKNOWN";
 			expCond="!alive general";
 			expActiv="if (!(""generaltask"" call SHK_taskMaster_isCompleted)) then {cutText [""The general is dead. Task cancelled."",""PLAIN DOWN""]};";
+			class Effects
+			{
+			};
+		};
+		class Item16
+		{
+			position[]={6494.7617,7.624392,5394.5024};
+			a=5;
+			b=5;
+			rectangular=1;
+			timeoutMin=2;
+			timeoutMid=2;
+			timeoutMax=2;
+			age="UNKNOWN";
+			expCond="{side _x == east} count playableUnits < 1";
+			expActiv=" 0 = [[[WEST],""END1"",""All Terrorists have been killed""],""CUL_fn_end""] spawn  BIS_fnc_MP";
 			class Effects
 			{
 			};
