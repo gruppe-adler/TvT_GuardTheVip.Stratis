@@ -30,12 +30,14 @@ _availableHeadgear = [
     "ARC_GER_Tropentarn_Helmet",
     "ARC_GER_Flecktarn_Helmet",
     "ARC_GER_Flecktarn_Helmet_simple",
-    "ARC_GER_Tropentarn_Helmet_simple"
+    "ARC_GER_Tropentarn_Helmet_simple",
+    "ARC_Common_OD_M_Helmet"
 ];
 
 _availableBackpacks = [
     "ARC_GER_Backpack_compact_Tropentarn",
-    "ARC_GER_Backpack_compact_Flecktarn"
+    "ARC_GER_Backpack_compact_Flecktarn",
+    "ARC_GER_Backpack_Carryall_Flecktarn"
 ];
 
 _availableItems = [
@@ -60,8 +62,8 @@ _availableItems = [
     "ItemCompass",
     "AGM_CableTie",
     "AGM_MapTools",
-    "AGM_DefusalKit"
-
+    "AGM_DefusalKit",
+    "NVGoggles_INDEP"
 ];
 
 _availableVests = [
@@ -104,7 +106,8 @@ _availableWeapons = [
     "hlc_smg_mp5a4",
     "hlc_smg_mp5n",
     "hlc_smg_mp5k_PDW",
-    "SMG_01_F"  
+    "SMG_01_F",
+    "Rangefinder"
 ];
 
 _magazineCargo = [
