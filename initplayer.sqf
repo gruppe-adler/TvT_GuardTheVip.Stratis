@@ -49,7 +49,6 @@ CUL_fn_Equip = {
 			{_x setMarkerColorLocal "ColorRed"; _x setMarkerTextLocal " VIP eliminieren"}forEach ["helimark","rogainmark","generalmark","dockmark"];
 			{_x setMarkerTextLocal " VIP eliminieren (Blufor-Gebiet)"}forEach ["helimark","rogainmark"];
 			player addUniform "U_CAF_AG_EEUR_FATIGUES_03";
-			player addHeadGear "H_Shemag_olive_hs";
 			player addVest "V_TacVest_oli";
 			
 		};
