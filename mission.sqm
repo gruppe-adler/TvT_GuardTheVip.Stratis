@@ -2134,7 +2134,7 @@ class Mission
 			vehicle="B_MRAP_01_F";
 			leader=1;
 			skill=0.60000002;
-			init="clearMagazineCargoGlobal this; clearweaponcargoglobal this; this setObjectTexture [0, ""skins\Hunter_flecktarn_base.paa""]; this setObjectTexture [1, ""skins\Hunter_flecktarn_adds.paa""];";
+			init="clearMagazineCargoGlobal this; clearweaponcargoglobal this; this setObjectTexture [0, ""Skins\Hunter_flecktarn_base.paa""]; this setObjectTexture [1, ""skins\Hunter_flecktarn_adds.paa""];";
 		};
 		class Item1
 		{
@@ -2145,7 +2145,7 @@ class Mission
 			vehicle="B_MRAP_01_F";
 			leader=1;
 			skill=0.60000002;
-			init="clearMagazineCargoGlobal this; clearweaponcargoglobal this; this setObjectTexture [0, ""skins\Hunter_flecktarn_base.paa""]; this setObjectTexture [1, ""skins\Hunter_flecktarn_adds.paa""];";
+			init="clearMagazineCargoGlobal this; clearweaponcargoglobal this; this setObjectTexture [0, ""Skins\Hunter_flecktarn_base.paa""]; this setObjectTexture [1, ""skins\Hunter_flecktarn_adds.paa""];";
 		};
 		class Item2
 		{
