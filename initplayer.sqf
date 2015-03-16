@@ -20,11 +20,6 @@ CUL_fn_Equip = {
 					player addVest "ARC_GER_Flecktarn_Plate_Carrier";
 					player addMagazine "HandGrenade";
 				}else{
-					player addUniform "ARC_GER_Flecktarn_Uniform";
-					player addHeadGear "ARC_GER_Flecktarn_Helmet_Light"; 
-					player addVest "ARC_GER_Flecktarn_Plate_Carrier";
-				};
-			}else{
 					player linkItem "ItemGPS";
 					
 					player addUniform "U_Marshal";
@@ -32,8 +27,7 @@ CUL_fn_Equip = {
 					player addVest "V_TacVest_blk_POLICE";
 					[] spawn {
 					while {alive player} do {
-							waitUntil {uniform player != "U_Marshal" || headGear player != "H_Cap_police" || vest player != "V_TacVest_blk_POLICE"};
-							{deleteVehicle _x} forEach (nearestObjects[player,["WeaponHolder"],3]);
+							waitUntil {uniform player != "U_Marshal" || headGear player != "H_Cap_police" || vest player != "V_TacVest_blk_POLICE"};							{deleteVehicle _x} forEach (nearestObjects[player,["WeaponHolder"],3]);
 							removeHeadGear player;
 							removeVest player;
 							removeUniform player;
@@ -42,6 +36,9 @@ CUL_fn_Equip = {
 							player addVest "V_TacVest_blk_POLICE";
 							};
 					};
+				};
+			}else{
+				//do nothing at all
 			};
 		};
 		case opfor: {
