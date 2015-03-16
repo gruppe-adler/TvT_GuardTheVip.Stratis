@@ -2275,20 +2275,20 @@ class Mission
 		class Item14
 		{
 			position[]={4175.1519,37.771336,5350.5078};
-			azimut=-155.98796;
+			azimut=-155.98801;
 			id=82;
 			side="EMPTY";
-			vehicle="CAF_AG_ME_T_Offroad";
+			vehicle="C_Offroad_01_F";
 			leader=1;
 			skill=0.60000002;
 		};
 		class Item15
 		{
 			position[]={4178.1802,37.853951,5348.6187};
-			azimut=-164.88965;
+			azimut=-164.89;
 			id=83;
 			side="EMPTY";
-			vehicle="CAF_AG_ME_T_Offroad";
+			vehicle="C_Offroad_01_F";
 			leader=1;
 			skill=0.60000002;
 		};
