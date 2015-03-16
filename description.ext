@@ -9,11 +9,12 @@ overviewPicture="Pic\GuardTheVip.jpg"; //mission picture for loading screen only
 
 //Mission and map
 disabledAI = 1;
-showCompass   = 1; 
-showGPS       = 1; 
-showMap       = 1; 
-showWatch     = 1; 
+showCompass   = 1;
+showGPS       = 1;
+showMap       = 1;
+showWatch     = 1;
 enableItemsDropping = 0;
+enableDebugConsole = 1;
 
 // Mission Header
 class Header
@@ -22,6 +23,27 @@ class Header
   minPlayers = 1;
   maxPlayers = 31;
 };
+
+class Params
+{
+	class EnableReplay
+	{
+		title = "enable replay";
+		values[] = {0,1};
+		texts[] = {"no", "yes"};
+		default = 1;
+		isGlobal = 0;
+	};
+	class IsStreamable
+	{
+		title = "enable live stream (needs 'enable replay')";
+		values[] = {0,1};
+		texts[] = {"no","yes"};
+		default = 0;
+		isGlobal = 0;
+	};
+};
+
 
 // description.ext settings for respawn
 ///////////////////////////////////////////////////////////////////////////////////////////

@@ -1,7 +1,12 @@
+
+ENABLE_REPLAY = paramsArray select 0;
+IS_STREAMABLE = paramsArray select 1;
+
 enableSaving [false,false];
 [arsenal_blufor] execVM "loadouts\virtual_arsenal_init_blufor.sqf";
 [arsenal_opfor] execVM "loadouts\virtual_arsenal_init_opfor.sqf";
 cameraOldPimped = compile preprocessFile "spectator\cameraOld_rip.sqf";
+
 
 [[
   ["rogaintask","Camp Rogain besichtigen","Unser Auftraggeber möchte den Stützpunkt Camp Rogain besichtigen.",blufor],
@@ -25,7 +30,7 @@ CUL_fn_end = {
 		player switchMove "amovpercmstpslowwrfldnon";
 		cutText [(_this select 2),"PLAIN DOWN"];
 	}else {_win = true; _type = _this select 1};
-	 [_type,_win,[true,10]] call BIS_fnc_endMission;	
+	 [_type,_win,[true,10]] call BIS_fnc_endMission;
 };
 
 waitUntil {isDedicated || !isNull player};
@@ -38,12 +43,17 @@ if (isServer) then {
 	[] execVM "initserver.sqf";
 };
 
-	// Intro Gruppe Adler   
+SYSTEM_LOG_LEVEL = 0;
+if (ENABLE_REPLAY == 1) then {
+	execVM "export-missiondata.sqf";
+};
 
-	titleCut ["", "BLACK FADED", 999]; 
+	// Intro Gruppe Adler
+
+	titleCut ["", "BLACK FADED", 999];
 	[] Spawn {
 
-	titleText ["","PLAIN"]; 
+	titleText ["","PLAIN"];
 	titleFadeOut 1;
 	sleep 2;
 
