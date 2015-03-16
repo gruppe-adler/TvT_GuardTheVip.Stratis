@@ -42,8 +42,8 @@ _pHeight = getTerrainHeightASL [_pX, _pY];
 if (_pHeight < 0) then {_pZ = _pZ + _pHeight};
 
 private ["_local"];
-_posRespawnHelperX = getPos sector_trigger select 0;
-_posRespawnHelperY = getPos sector_trigger select 1;
+_posRespawnHelperX = getPos vip select 0;
+_posRespawnHelperY = getPos vip select 1;
 _local = "camera" camCreate [_posRespawnHelperX + 100, _posRespawnHelperY, _pZ + 40];
 BIS_DEBUG_CAM = _local;
 _local camCommand "MANUAL ON";
@@ -53,7 +53,7 @@ showCinemaBorder false;
 
 
 //BIS_DEBUG_CAM setDir direction (vehicle player);
-BIS_DEBUG_CAM camPrepareTarget getPos sector_trigger; 
+BIS_DEBUG_CAM camPrepareTarget getPos vip; 
 BIS_DEBUG_CAM camcommitprepared 0;
 //BIS_DEBUG_CAM setDir direction (respawn_helper);
 
@@ -293,7 +293,7 @@ _map_mousebuttonclick = ((finddisplay 12) displayctrl 51) ctrladdeventhandler ["
 
 	waituntil {
 		if (!isnull BIS_DEBUG_CAM) then {_lastpos = position BIS_DEBUG_CAM};
-		isNull BIS_DEBUG_CAM || WINCONDITIONOPFOR || WINCONDITIONBLUFOR || BLUFOR_CAPTURED || BLUFOR_SURRENDERED
+		isNull BIS_DEBUG_CAM
 	};
 
 	player cameraEffect ["TERMINATE", "BACK"];
