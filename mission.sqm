@@ -2128,69 +2128,69 @@ class Mission
 		class Item0
 		{
 			position[]={6574.3169,23.79545,5321.3218};
-			azimut=249.94879;
+			azimut=249.94901;
 			id=68;
 			side="EMPTY";
 			vehicle="B_MRAP_01_F";
 			leader=1;
 			skill=0.60000002;
-			init="clearMagazineCargoGlobal this; this setObjectTexture [0, ""skins\Hunter_flecktarn_base.paa""]; this setObjectTexture [1, ""skins\Hunter_flecktarn_adds.paa""];";
+			init="clearMagazineCargoGlobal this; clearweaponcargoglobal this; this setObjectTexture [0, ""skins\Hunter_flecktarn_base.paa""]; this setObjectTexture [1, ""skins\Hunter_flecktarn_adds.paa""];";
 		};
 		class Item1
 		{
 			position[]={6564.8989,23.298996,5317.978};
-			azimut=-109.80449;
+			azimut=-109.804;
 			id=69;
 			side="EMPTY";
 			vehicle="B_MRAP_01_F";
 			leader=1;
 			skill=0.60000002;
-			init="clearMagazineCargoGlobal this; this setObjectTexture [0, ""skins\Hunter_flecktarn_base.paa""]; this setObjectTexture [1, ""skins\Hunter_flecktarn_adds.paa""];";
+			init="clearMagazineCargoGlobal this; clearweaponcargoglobal this; this setObjectTexture [0, ""skins\Hunter_flecktarn_base.paa""]; this setObjectTexture [1, ""skins\Hunter_flecktarn_adds.paa""];";
 		};
 		class Item2
 		{
 			position[]={6554.8677,22.964113,5316.041};
-			azimut=-90.934753;
+			azimut=-90.934799;
 			id=70;
 			side="EMPTY";
 			vehicle="B_MRAP_01_F";
 			leader=1;
 			skill=0.60000002;
-			init="clearMagazineCargoGlobal this; this setObjectTexture [0, ""skins\Hunter_flecktarn_base.paa""]; this setObjectTexture [1, ""skins\Hunter_flecktarn_adds.paa""];";
+			init="clearMagazineCargoGlobal this; clearweaponcargoglobal this; this setObjectTexture [0, ""skins\Hunter_flecktarn_base.paa""]; this setObjectTexture [1, ""skins\Hunter_flecktarn_adds.paa""];";
 		};
 		class Item3
 		{
 			position[]={6544.9634,22.900126,5315.7109};
-			azimut=-91.724922;
+			azimut=-91.724899;
 			id=71;
 			side="EMPTY";
 			vehicle="B_MRAP_01_F";
 			leader=1;
 			skill=0.60000002;
-			init="clearMagazineCargoGlobal this; this setObjectTexture [0, ""skins\Hunter_flecktarn_base.paa""]; this setObjectTexture [1, ""skins\Hunter_flecktarn_adds.paa""];";
+			init="clearMagazineCargoGlobal this; clearweaponcargoglobal this; this setObjectTexture [0, ""skins\Hunter_flecktarn_base.paa""]; this setObjectTexture [1, ""skins\Hunter_flecktarn_adds.paa""];";
 		};
 		class Item4
 		{
 			position[]={6535.0117,22.966827,5314.7759};
-			azimut=-97.276421;
+			azimut=-97.276398;
 			id=72;
 			side="EMPTY";
 			vehicle="B_MRAP_01_F";
 			leader=1;
 			skill=0.60000002;
 			text="car1";
-			init="clearMagazineCargoGlobal this; this setObjectTexture [0, ""skins\Hunter_flecktarn_base.paa""]; this setObjectTexture [1, ""skins\Hunter_flecktarn_adds.paa""];";
+			init="clearMagazineCargoGlobal this; clearweaponcargoglobal this; this setObjectTexture [0, ""skins\Hunter_flecktarn_base.paa""]; this setObjectTexture [1, ""skins\Hunter_flecktarn_adds.paa""];";
 		};
 		class Item5
 		{
 			position[]={6584.124,24.16296,5323.7183};
-			azimut=-99.892662;
+			azimut=-99.8927;
 			id=73;
 			side="EMPTY";
 			vehicle="B_MRAP_01_F";
 			leader=1;
 			skill=0.60000002;
-			init="clearMagazineCargoGlobal this; this setObjectTexture [0, ""skins\Hunter_flecktarn_base.paa""]; this setObjectTexture [1, ""skins\Hunter_flecktarn_adds.paa""];";
+			init="clearMagazineCargoGlobal this; clearweaponcargoglobal this; this setObjectTexture [0, ""skins\Hunter_flecktarn_base.paa""]; this setObjectTexture [1, ""skins\Hunter_flecktarn_adds.paa""];";
 		};
 		class Item6
 		{
