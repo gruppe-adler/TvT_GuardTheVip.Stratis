@@ -48,7 +48,6 @@ class Mission
 		"agm_medical",
 		"agm_logistics",
 		"BWA3_Factionennek",
-		"bw_a3_dingo",
 		"A3_Soft_F_MRAP_01",
 		"A3_Structures_F_Walls",
 		"A3_Structures_F_Mil_Fortification",
@@ -2134,7 +2133,7 @@ class Mission
 			azimut=-97.276398;
 			id=71;
 			side="EMPTY";
-			vehicle="BW_Dingo_Des";
+			vehicle="Fennek_Tropen_mg";
 			leader=1;
 			skill=0.60000002;
 			text="car1";

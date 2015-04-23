@@ -583,6 +583,7 @@ switch _mode do {
 			};
 
 			case (DIK_SPACE): {
+			_cam = missionnamespace getvariable ["CSSA3_mainCamera",objnull];
 
 			if (!camInertia) then {
 				_cam camCommand 'INERTIA ON';
