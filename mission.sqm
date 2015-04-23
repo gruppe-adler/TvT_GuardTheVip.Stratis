@@ -28,7 +28,10 @@ class Mission
 		"A3_Air_F_Beta_Heli_Attack_01",
 		"A3_Soft_F_Truck",
 		"agm_nametags",
-		"A3_Weapons_F_Ammoboxes"
+		"A3_Weapons_F_Ammoboxes",
+		"bw_a3_dingo",
+		"a3_bush",
+		"BWA3_Factionennek"
 	};
 	addOnsAuto[]=
 	{
@@ -44,6 +47,8 @@ class Mission
 		"agm_interaction",
 		"agm_medical",
 		"agm_logistics",
+		"BWA3_Factionennek",
+		"bw_a3_dingo",
 		"A3_Soft_F_MRAP_01",
 		"A3_Structures_F_Walls",
 		"A3_Structures_F_Mil_Fortification",
@@ -53,7 +58,7 @@ class Mission
 		"CAMisc_ACR_Helpers",
 		"A3_Structures_F_Ind_Cargo",
 		"A3_Air_F_Beta_Heli_Attack_01",
-		"A3_Soft_F_Truck",
+		"a3_bush",
 		"A3_Weapons_F_Ammoboxes",
 		"a3_map_stratis"
 	};
@@ -2084,10 +2089,10 @@ class Mission
 			azimut=249.94901;
 			id=67;
 			side="EMPTY";
-			vehicle="B_MRAP_01_F";
+			vehicle="Fennek_Tropen";
 			leader=1;
 			skill=0.60000002;
-			init="clearMagazineCargoGlobal this; clearweaponcargoglobal this; this setObjectTexture [0, ""Skins\Hunter_flecktarn_base.paa""]; this setObjectTexture [1, ""Skins\Hunter_flecktarn_adds.paa""];";
+			init="clearweaponCargoGlobal this; clearbackpackcargoglobal this; clearitemcargoglobal this; clearmagazinecargoglobal this;";
 		};
 		class Item1
 		{
@@ -2095,10 +2100,10 @@ class Mission
 			azimut=-109.804;
 			id=68;
 			side="EMPTY";
-			vehicle="B_MRAP_01_F";
+			vehicle="Fennek_Tropen";
 			leader=1;
 			skill=0.60000002;
-			init="clearMagazineCargoGlobal this; clearweaponcargoglobal this; this setObjectTexture [0, ""Skins\Hunter_flecktarn_base.paa""]; this setObjectTexture [1, ""Skins\Hunter_flecktarn_adds.paa""];";
+			init="clearweaponCargoGlobal this; clearbackpackcargoglobal this; clearitemcargoglobal this; clearmagazinecargoglobal this;";
 		};
 		class Item2
 		{
@@ -2106,10 +2111,10 @@ class Mission
 			azimut=-90.934799;
 			id=69;
 			side="EMPTY";
-			vehicle="B_MRAP_01_F";
+			vehicle="Fennek_Tropen_san";
 			leader=1;
 			skill=0.60000002;
-			init="clearMagazineCargoGlobal this; clearweaponcargoglobal this; this setObjectTexture [0, ""Skins\Hunter_flecktarn_base.paa""]; this setObjectTexture [1, ""Skins\Hunter_flecktarn_adds.paa""];";
+			init="clearweaponCargoGlobal this; clearbackpackcargoglobal this; clearitemcargoglobal this; clearmagazinecargoglobal this;";
 		};
 		class Item3
 		{
@@ -2117,10 +2122,11 @@ class Mission
 			azimut=-91.724899;
 			id=70;
 			side="EMPTY";
-			vehicle="B_MRAP_01_F";
+			vehicle="Fennek_Tropen";
 			leader=1;
 			skill=0.60000002;
-			init="clearMagazineCargoGlobal this; clearweaponcargoglobal this; this setObjectTexture [0, ""Skins\Hunter_flecktarn_base.paa""]; this setObjectTexture [1, ""Skins\Hunter_flecktarn_adds.paa""];";
+			text="car2";
+			init="clearweaponCargoGlobal this; clearbackpackcargoglobal this; clearitemcargoglobal this; clearmagazinecargoglobal this;";
 		};
 		class Item4
 		{
@@ -2128,11 +2134,11 @@ class Mission
 			azimut=-97.276398;
 			id=71;
 			side="EMPTY";
-			vehicle="B_MRAP_01_F";
+			vehicle="BW_Dingo_Des";
 			leader=1;
 			skill=0.60000002;
 			text="car1";
-			init="clearMagazineCargoGlobal this; clearweaponcargoglobal this; this setObjectTexture [0, ""Skins\Hunter_flecktarn_base.paa""]; this setObjectTexture [1, ""Skins\Hunter_flecktarn_adds.paa""];";
+			init="clearweaponCargoGlobal this; clearbackpackcargoglobal this; clearitemcargoglobal this; clearmagazinecargoglobal this; this disableTIEquipment true;";
 		};
 		class Item5
 		{
@@ -2140,14 +2146,14 @@ class Mission
 			azimut=-99.8927;
 			id=72;
 			side="EMPTY";
-			vehicle="B_MRAP_01_F";
+			vehicle="Fennek_Tropen";
 			leader=1;
 			skill=0.60000002;
-			init="clearMagazineCargoGlobal this; clearweaponcargoglobal this; this setObjectTexture [0, ""Skins\Hunter_flecktarn_base.paa""]; this setObjectTexture [1, ""Skins\Hunter_flecktarn_adds.paa""];";
+			init="clearweaponCargoGlobal this; clearbackpackcargoglobal this; clearitemcargoglobal this; clearmagazinecargoglobal this;";
 		};
 		class Item6
 		{
-			position[]={4350.5996,225.76398,3797.0566};
+			position[]={4350.5996,225.76396,3797.0566};
 			azimut=-104.122;
 			id=73;
 			side="EMPTY";
@@ -2155,7 +2161,7 @@ class Mission
 			leader=1;
 			lock="UNLOCKED";
 			skill=0.60000002;
-			init="clearItemCargo this; clearMagazineCargo this";
+			init="clearweaponCargoGlobal this; clearbackpackcargoglobal this; clearitemcargoglobal this; clearmagazinecargoglobal this;";
 		};
 		class Item7
 		{
@@ -2166,7 +2172,7 @@ class Mission
 			vehicle="B_MRAP_01_F";
 			leader=1;
 			skill=0.60000002;
-			init="clearMagazineCargo this; clearItemCargo this;";
+			init="clearMagazineCargoGlobal this; clearItemCargoGlobal this;";
 		};
 		class Item8
 		{
@@ -2405,11 +2411,10 @@ class Mission
 			special="NONE";
 			id=98;
 			side="EMPTY";
-			vehicle="C_Van_01_transport_F";
+			vehicle="Cane1";
 			leader=1;
 			skill=0.60000002;
 			fuel=0.47870183;
-			description="Attentäter (Führer)";
 		};
 		class Item32
 		{
@@ -2423,7 +2428,6 @@ class Mission
 			skill=0.60000002;
 			health=0.89858443;
 			fuel=0.32682893;
-			description="Attentäter (Führer)";
 		};
 		class Item33
 		{
@@ -2436,7 +2440,6 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			fuel=0.62610686;
-			description="Attentäter (Führer)";
 		};
 		class Item34
 		{
@@ -2450,7 +2453,6 @@ class Mission
 			skill=0.60000002;
 			text="box";
 			init="clearweaponCargoGlobal this; clearbackpackcargoglobal this; clearitemcargoglobal this; clearmagazinecargoglobal this; box addMagazinecargoglobal [""ClaymoreDirectionalMine_Remote_Mag"", 3];";
-			description="Attentäter (Führer)";
 		};
 	};
 	class Markers
@@ -2778,7 +2780,7 @@ class Mission
 			timeoutMid=2;
 			timeoutMax=2;
 			age="UNKNOWN";
-			expCond="{side _x == east} count playableUnits < 1";
+			expCond="{side _x == east} count playableUnits < 1 && {side _x == east} count switchableUnits  < 1";
 			expActiv=" 0 = [[[WEST],""END1"",""All Terrorists have been killed""],""CUL_fn_end""] spawn  BIS_fnc_MP";
 			class Effects
 			{
