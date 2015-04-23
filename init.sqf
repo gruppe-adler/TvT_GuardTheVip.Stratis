@@ -7,6 +7,9 @@ enableSaving [false,false];
 [arsenal_opfor] execVM "loadouts\virtual_arsenal_init_opfor.sqf";
 cameraOldPimped = compile preprocessFile "spectator\cameraOld_rip.sqf";
 
+[] execVM "CSSA3\CSSA3_init.sqf";
+
+
 
 [[
   ["rogaintask","Camp Rogain besichtigen","Unser Auftraggeber möchte den Stützpunkt Camp Rogain besichtigen.",blufor],

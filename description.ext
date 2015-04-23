@@ -5,7 +5,9 @@ onLoadIntroTime=false;
 onLoadMission="Der Polizeipräsident von Altis besucht die Nachbarinsel Stratis um dort Präsenz zu zeigen. Die Gruppe Adler hat den Auftrag Ihn vor allen möglichen Gefahren zu schützen.";
 onLoadMissionTime=false;
 overviewPicture="Pic\GuardTheVip.jpg"; //mission picture for loading screen only
+respawnDelay = 3;
 
+#include "CSSA3\CSSA3_header.hpp"
 
 //Mission and map
 disabledAI = 1;
