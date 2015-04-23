@@ -152,6 +152,7 @@ switch _mode do {
 
 		//---Creates temporary camera.
 		_cam = "camera" camcreate [0,0,0];
+		camInertia = false;
 
 		//--- Declare variables
 		CSSA3_NextTime = 0;
@@ -579,6 +580,19 @@ switch _mode do {
 						_display closedisplay 2;
 					};
 				};
+			};
+
+			case (DIK_SPACE): {
+
+			if (!camInertia) then {
+				_cam camCommand 'INERTIA ON';
+				camInertia = true;
+			} else {
+				_cam camCommand 'INERTIA OFF';
+				camInertia = false;
+			};
+	
+
 			};
 
 			case (DIK_TAB): {
