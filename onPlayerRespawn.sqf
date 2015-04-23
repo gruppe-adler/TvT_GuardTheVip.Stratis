@@ -17,4 +17,6 @@ _unit addAction["<t color='#d18d1f'>Spectator-Cam aufrufen","spectator\callSpect
 
 sleep 0.1;
 // start spec cam
-[_unit] execVM "spectator\callSpectator.sqf";
+//[_unit] execVM "spectator\callSpectator.sqf";
+// start spec cam
+["forced"] spawn CSSA3_fnc_createSpectateDialog;

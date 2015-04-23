@@ -18,7 +18,7 @@ overviewPicture="Pic\GuardTheVip.jpg"; //mission picture for loading screen only
 #include "CSSA3\CSSA3_header.hpp"
 
 //Mission and map
-disabledAI = 1;
+disabledAI = 0;
 showCompass   = 1;
 showGPS       = 1;
 showMap       = 1;
